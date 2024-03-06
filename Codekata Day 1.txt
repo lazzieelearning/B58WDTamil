@@ -27,6 +27,8 @@ example:-
 var a =5;
 console.log(typeof(a));
 
+parseint:- +"55"+6 = 61
+
 difference between == and ===
 == checks for value if it is same means it returns true.
 === checks for both value and Datatype if it is same means it returns true.

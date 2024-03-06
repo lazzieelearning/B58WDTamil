@@ -1,0 +1,17 @@
+Contents:- 
+Array
+Looping
+
+Array:- 
+=> It is a collection of datatypes
+=> Array index always starts with 0
+=> It will be in the sequence manner
+=>To print the array values we have to use:-
+Syntax: arrayname[indexvalue]
+example:- a[0]
+=>to find the length of an array we have to use:-
+syntax:- arrayname.length
+example:- a.length
+=>To find the last index of an array we have to use
+syntax: arrayname.length-1
+example:- a.length-1
