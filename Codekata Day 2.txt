@@ -15,3 +15,55 @@ example:- a.length
 =>To find the last index of an array we have to use
 syntax: arrayname.length-1
 example:- a.length-1
+-----------
+example:-
+var fruits = ["apple","mango","bannana","fig"]
+//total array
+console.log(fruits);
+//array length
+console.log(fruits.length)
+//array last index
+console.log(fruits.length-1)
+//individual array elements
+console.log(fruits[0])
+console.log(fruits[1])
+console.log(fruits[2])
+console.log(fruits[3])
+
+//second array
+var numbers = [1,2,3,4.5,6,8.5,9,10,14]
+//total array
+console.log(numbers)
+//array length
+console.log(numbers.length)
+//array last index
+console.log(numbers.length-1)
+//individual array elements
+console.log(numbers[0])
+console.log(numbers[1])
+console.log(numbers[2])
+console.log(numbers[3])
+console.log(numbers[4])
+console.log(numbers[5])
+console.log(numbers[6])
+console.log(numbers[7])
+console.log(numbers[8])
+
+//third array
+var mixed = ["apple",true,4.5,5,null,undefined,"123","458"]
+//total array
+console.log(mixed)
+//array length
+console.log(mixed.length)
+//array last index
+console.log(mixed.length-1)
+//individual array elements
+console.log(mixed[0])
+console.log(mixed[1])
+console.log(mixed[2])
+console.log(mixed[3])
+console.log(mixed[4])
+console.log(mixed[5])
+console.log(mixed[7])
+//In last array convert "123" to 123
+console.log(typeof(+mixed[6]))
