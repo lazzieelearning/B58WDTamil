@@ -66,4 +66,4 @@ console.log(mixed[4])
 console.log(mixed[5])
 console.log(mixed[7])
 //In last array convert "123" to 123
-console.log(typeof(+mixed[6]))
+console.log(typeof(parseInt(mixed[6])))
