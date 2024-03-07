@@ -1,0 +1,57 @@
+content:- 
+Array and forloop
+ifelse
+
+Array and forloop
+=> to print the array we use for Loop
+=> In the for loop the Initial value will be 0 if we need to print the array
+=> In the condition we use whether arrayname.length or arrayname.length-1 to make it work dynamically.
+=> In the console we use arrayname[indexvalue] to print the array.
+example:-
+var a =[1,2,3,4,5]
+for(var i=0;i<=a.length-1;i=i+1)
+{
+    console.log(a[i])
+}
+
+examples:-
+var mixed = ["apple",true,4.5,5,null,undefined,"123","458"]
+for(var i=0;i<=mixed.length-1;i=i+1)
+{
+    console.log(mixed[i])
+}
+
+example:-
+var numbers = [1,2,3,4.5,6,8.5,9,10,14]
+for(var i=0;i<=numbers.length-1;i=i+1)
+{
+    console.log(numbers[i])
+}
+
+example:- reverse printing
+var numbers = [1,2,3,4.5,6,8.5,9,10,14]
+for(var i=numbers.length-1;i>=0;i=i-1)
+{
+    console.log(numbers[i])
+}
+
+example:-
+//write a program to print the multiples of 2 in array
+var num = [5,8,9,7,6,4,3,11,10,12]
+for(var i=0;i<=num.length-1;i=i+1)
+{
+  console.log(num[i]*2)
+}
+
+example:-
+//write a program to print the multiples of 2 in array
+var a =['5','8','9','7','6','4','3','11','10','12']
+for(var i=0;i<=a.length-1;i=i+1)
+{
+  console.log(+a[i]*2)
+}
+
+
+If-else:- 
+syntax:-
+

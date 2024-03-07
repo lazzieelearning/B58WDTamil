@@ -72,7 +72,8 @@ console.log(typeof(parseInt(mixed[6])))
 Looping:-
 => for Loop
 syntax:- 
-for(initialization;test condition;increment/decrement){
+for(initialization;test condition;increment/decrement)
+{
     //code block to be executed
 }
 //initialization:- Initial value
