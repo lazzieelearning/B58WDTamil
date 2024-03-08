@@ -1,0 +1,65 @@
+Contents:- 
+1.Split
+2.Join
+3.Trim
+4.IDE 
+5.Codekata problems
+
+1.Split:- 
+=> It splits the string into individual character array.
+=> It depends on input.
+=> It only works on string.
+syntax:- 
+split("")
+
+Example:-
+var a = "abcd".split("")
+console.log(a)
+
+class problems:-
+1."hi hello how are you"
+2."Happy womens day"
+3. "thank&&you"
+4. "g/*o/*o/*d"
+5. "1*2*3*4*5"
+6. "abc def*ghi"
+
+//"hi hello how are you"  
+var a = "hi hello how are you" .split(" ")
+for(var i=0;i<=a.length-1;i=i+1)
+{
+  console.log(a[i].split(""))
+}
+
+//"Happy womens day"      
+var a = "Happy womens day" .split(" ")
+for(var i=0;i<=a.length-1;i=i+1)
+{
+  console.log(a[i].split(""))
+}
+
+//"thank&&you"           
+var a = "thank&&you".split("&&")
+for(var i=0;i<=a.length-1;i=i+1)
+{
+  console.log(a[i].split(""))
+}
+
+//"g/*o/*o/*d"
+var a = "g/*o/*o/*d".split("/*")
+console.log(a)
+
+//"1*2*3*4*5"             
+var a = "1*2*3*4*5".split("*")
+console.log(a)
+
+//"abc def*ghi"         
+var a = "abc def*ghi".split(" ")
+console.log(a)
+var b = a[0].split("")
+console.log(b)
+var c = a[1].split("*")
+for (var i=0;i<c.length;i++)
+{
+  console.log(c[i].split(""))
+}
