@@ -54,10 +54,37 @@ console.log(a)
 //"abc def*ghi"         
 var a = "abc def*ghi".split(" ")
 console.log(a)
+// ["abc", "def*ghi"]
 var b = a[0].split("")
 console.log(b)
-var c = a[1].split("*")
+//["a","b","c"]
+ var c = a[1].split("*")
+ //["def","ghi"]
+
 for (var i=0;i<c.length;i++)
 {
   console.log(c[i].split(""))
+  //c[0].split("")=> ['d','e','f']
+   //c[1].split("")=> ['g','h','i']
 }
+
+
+2.Join
+=> It joins the individual character array
+=> It depends on the output
+syntax:- 
+join("")
+Example:-
+//input: "a b c d e"
+//ouput:- a*b*c*d*e
+//ouput:- a/*/#b/*/#c/*/#d/*/#e
+//ouput:- a b c d e
+
+var a = "a b c d e".split(" ")
+console.log(a.join("*"))
+
+var a = "a b c d e".split(" ")
+console.log(a.join("/*/#"))
+
+var a = "a b c d e".split(" ")
+console.log(a.join(" "))
