@@ -88,3 +88,7 @@ console.log(a.join("/*/#"))
 
 var a = "a b c d e".split(" ")
 console.log(a.join(" "))
+
+
+Research array methods:- push,slice,splice,indexof,includes,sort,reverse,concat.
+Research string methods:- charAt,toLowercase,toUppercase,concat,slice,substr,search,match.
