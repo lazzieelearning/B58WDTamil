@@ -1,9 +1,7 @@
 Contents:- 
 1.Split
 2.Join
-3.Trim
-4.IDE 
-5.Codekata problems
+
 
 1.Split:- 
 => It splits the string into individual character array.
