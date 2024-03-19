@@ -97,3 +97,148 @@ for(var i=10; i>=1;i=i-1)
 //2 table reverse 20 to 2
 // 5 table 5 to 50 
 // 5 table reverse 50 to 5
+
+Array:-
+var b =["abc","45",5,9,12,58,true]
+//Total array
+console.log(b)
+// array length
+console.log(b.length)
+// array last index
+console.log(b.length-1)
+// individual elements
+console.log(b[0])
+console.log(b[1])
+console.log(b[2])
+console.log(b[3])
+console.log(b[4])
+console.log(b[5])
+console.log(b[6])
+
+var fruits = ["fig","watermelon","pineapple","papaya"]
+// Total array
+console.log(fruits)
+// array length
+console.log(fruits.length)
+// array last index
+console.log(fruits.length-1)
+// individual elements
+console.log(fruits[0])
+console.log(fruits[1])
+console.log(fruits[2])
+console.log(fruits[3])
+var vegetables = ["carrot","beans","cauliflower","spinach"]
+// Total array
+console.log(vegetables)
+// array length
+console.log(vegetables.length)
+// array last index
+console.log(vegetables.length-1)
+// individual elements
+console.log(vegetables[0])
+console.log(vegetables[1])
+console.log(vegetables[2])
+console.log(vegetables[3])
+var mixed = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,"apple","beetroot","rose","lavendar","table","chair"]
+// Total array
+console.log(mixed)
+// array length
+console.log(mixed.length)
+// array last index
+console.log(mixed.length-1)
+// individual elements
+console.log(mixed[0])
+console.log(mixed[1])
+console.log(mixed[2])
+console.log(mixed[3])
+console.log(mixed[4])
+console.log(mixed[5])
+console.log(mixed[6])
+console.log(mixed[7])
+console.log(mixed[8])
+console.log(mixed[9])
+console.log(mixed[10])
+console.log(mixed[11])
+console.log(mixed[12])
+console.log(mixed[13])
+console.log(mixed[14])
+console.log(mixed[15])
+console.log(mixed[16])
+console.log(mixed[17])
+console.log(mixed[18])
+console.log(mixed[19])
+console.log(mixed[20])
+
+for loop:-
+//syntax:-
+// for(initialization;condition;increment/decerement)
+// {
+//   block of codes
+// }
+
+//Normal for loop
+for(var i=1;i<=10;i=i+1)
+{
+console.log(i);
+}
+//Reverse for loop
+for(var i=10;i>=1;i=i-1)
+{
+console.log(i);
+}
+//print the numbers from 20 to 40
+for(var i=20;i<=40;i=i+1)
+{
+ console.log(i);
+}
+
+//print the multiples of 2 upto 20
+for(var i=1;i<=10;i=i+1)
+ {
+ console.log(i*2);
+ }
+ 
+//print the multiples of 5 from 50 to 5
+for(var i=10;i>=1;i=i-1)
+{
+console.log(i*5);
+}
+
+Array and for loop
+var a =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,"apple","beetroot","rose","lavendar","table","chair"]
+for(var i=0;i<a.length;i=i+1)
+{
+  console.log(a[i])
+}
+var b =["abc","45",5,9,12,58,true]
+for(var i=0;i<b.length;i=i+1)
+{
+  console.log(b[i])
+}
+var fruits = ["fig","watermelon","pineapple","papaya"]
+for(var i=0;i<fruits.length;i=i+1)
+{
+  console.log(fruits[i])
+}
+var vegetables = ["carrot","beans","cauliflower","spinach"]
+for(var i=0;i<vegetables.length;i=i+1)
+{
+  console.log(vegetables[i])
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
